@@ -5,35 +5,16 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         Collection test = new Collection();
-test.display();
+        Collection test2= new Collection();
 
+        test.add("aaa");
+        test.add("bbb");
+        test.add("ccc",2);
+        System.out.println(test.size());
 
-        test.add("1");
-        test.display();
-        test.last.showLink();
-        System.out.println("");
-
-        test.add("2");
-        test.display();
-        test.last.showLink();
-        System.out.println("");
-
-        test.add("123");
-        test.display();
-        test.last.showLink();
-        System.out.println("");
-
-
-        test.add("111",1);
-        test.display();
-        test.last.showLink();
-        System.out.println("");
-
-
-        test.add("112");
-        test.display();
-        test.last.showLink();
-
-
+test.delete(1);
+        System.out.println(test.size());
+test.delete("aaa");
+        System.out.println(test.size());
     }
 }

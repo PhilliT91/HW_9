@@ -1,7 +1,7 @@
 package source;
 
 public interface CustomCollection {
-    boolean add(String str);
+   boolean add(String str);
 
     boolean addAll(String[] strArr);
 
@@ -21,7 +21,7 @@ public interface CustomCollection {
 
     boolean trim();
 
-    boolean compate(Collection coll);
+    boolean compare(Collection coll);
 
 
 }
